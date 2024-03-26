@@ -1,0 +1,26 @@
+{
+    "name": "commitm/multi-tenant",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "keywords": ["multitenant", "tenant"],
+    "authors": [
+        {
+            "name": "Michał Materniak COMMIT-M",
+            "homepage": "https://commit-m.pl/"
+        }
+    ],
+    "require": {
+        "php": ">=8.3",
+        "doctrine/orm": "^3.1.1",
+        "symfony/framework-bundle": "7.0.*"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "CommitM\\MultiTenant\\": "src/"
+        }
+    }
+}
